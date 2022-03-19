@@ -1,0 +1,35 @@
+{
+  "name": "gateway-lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "ts-node-dev ./src/app.ts",
+    "build": "tsc",
+    "buildRun": "tsc & node ./dist/app.js",
+    "start": "node ./dist/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@polkadot/api": "^7.13.1",
+    "@polkadot/types": "^7.13.1",
+    "@s2g/borsh": "^1.2.0",
+    "@types/text-encoding-utf-8": "^1.0.2",
+    "bignumber.js": "^9.0.1",
+    "bs58": "^5.0.0",
+    "lodash": "^4.17.21",
+    "near-api-js": "^0.41.0",
+    "reflect-metadata": "^0.1.13",
+    "text-encoding-utf-8": "^1.0.2",
+    "typescript": "^4.5.4",
+    "web3-utils": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "ts-node": "^10.4.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.4"
+  }
+}
